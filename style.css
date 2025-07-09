@@ -1,37 +1,29 @@
-table{
-    color: #fff;
-    text-align: center;
-    border-collapse: collapse;
-    font: normal 3em Arial, Helvetica,sans-serif;
+h1{
+    color: green;
+    font-family: sans-serif;
+ }
+
+p{
+ color: coral;
+    font-family: Helvetica, sans-serif
 }
 
-tr{
-    height: 16.02vh;
-    background-color: #4e494d;
+ul{
+    list-style-image: url('images/pointer-icon.png');
+}
+   
+ol{
+    list-style-type: upper-roman;
+}
+#menu-bar a{
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 5px;
 }
 
-td{
-    width: 25vw;
-    border: 1px solid #4e494d;
-}
-
-#inputBox{
-    background-color: #4e494d;
-    text-align: right;
-    width: 100%;
-    font-size: 2em;
-    color: #fff;
-    border: 0px;
-}
-
-.digitButton{
-    background-color: #ff9e06;
-}
-
-.operatorButton{
-    background-color: #ff9e06;
-}
-
-.ACButton{
-    background-color: #656165;
+#menu-bar a:hover{
+    background-color: aqua;
+    color:#ffffff
+    
 }
